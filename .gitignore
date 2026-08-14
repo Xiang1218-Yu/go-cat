@@ -1,0 +1,35 @@
+# 编译生成的可执行文件
+desktop-pet-macos
+desktop-pet-macos-amd64
+desktop-pet-macos-arm64
+desktop-pet-windows.exe
+desktop-pet
+
+# 宠物图片资源
+assets/pet.png
+
+# Go编译产物
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# 测试文件
+*.test
+
+# Go工作空间文件
+go.work
+
+# IDE和编辑器文件
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS系统文件
+.DS_Store
+
+# Windows系统文件
+Thumbs.db
